@@ -1,0 +1,13 @@
+import random
+
+quotes = [
+  "Hack the planet!",
+  "There is no patch for human stupidity.",
+  "Information wants to be free.",
+  "The quieter you become, the more you are able to hear.",
+  "With great power comes great responsibility.",
+  "You can only hack what you understand.",
+  "Security is an illusion if trust is misplaced."
+]
+randomquote = random.choice(quotes)
+print(randomquote)
